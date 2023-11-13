@@ -8,13 +8,31 @@
   </head>
   <body>
     <div class="container">
-      <div class="left-side"></div>
+      <div class="left-side">
+        <div class="logo-container">ODIN</div>
+      </div>
       <div class="right-side">
-        <form action="https://github.com/radinag94/sign-up-form" method="post">
+        <section class="first-section">
+          <br>This is not real online service!
+            <br> You know you need something like this in your life to help you realize your deepest dreams.
+            <p>Sign up <span class="emphasized">now </span>to get started.</p>
+            <p> You <span class="emphasized">know</span> you want to. </p>
+    </section>
+        
+        <form action="https://github.com/radinag94/sign-up-form" method="post" class="second-section">
+            <p id="form-header">Let's do this!</p>
+            <div class="row">
+                <div class="input-group">
           <label for="first-name">FIRST NAME</label>
-          <input type="name" name="first-name" id="first-name" />
+          <input type="text" name="first-name" id="first-name" />
+        </div>
+        <div class="input-group">
           <label for="last-name">LAST NAME</label>
-          <input type="last-name" name="last-name" id="last-name" />
+          <input type="text" name="last-name" id="last-name" />
+        </div>
+    </div>
+        <div class="row">
+            <div class="input-group">
           <label for="email">EMAIL</label>
           <input
             type="email"
@@ -22,18 +40,36 @@
             id="email"
             placeholder="example@mail.com"
           />
+        </div>
+        <div class="input-group">
           <label for="phone-number">PHONE NUMBER</label>
-          <input type="number" name="phone-number" id="phone-number" />
+     
+          <input type="number" name="number" id="number" />
+        </div>
+    </div>
+        <div class="row">
+            <div class="input-group">
           <label for="password">PASSWORD</label>
           <input type="password" name="password" id="password" />
+        </div>
+        <div class="input-group">
           <label for="confirm-password">CONFIRM PASSWORD</label>
           <input
             type="password"
             name="confirm-password"
             id="confirm-password"
           />
+        </div>
+        </div>
         </form>
+       <section class="third-section">
+    <button id="btn-create-account" >Create Account</button>
+    <p>Already have an account?
+        <a href="https://github.com/radinag94/sign-up-form">Log in</a>
+    </p>
+</section>
       </div>
+    </div>
     </div>
   </body>
 </html>
