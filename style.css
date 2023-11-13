@@ -2,17 +2,26 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 30px;
     height: 100%;
+    
  
   }
 .left-side {
-    flex: 50%;
+    flex: 30%;
     background-size: cover;
     background-image: url("./imgs/leandra-rieger-A0_fiGsEhkc-unsplash.jpg");
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; 
+    justify-content: center;
+  
 }  
 .right-side {
-    flex: 50%;
+    flex: 70%;
+    width: 100%;
+    height: 100%;
+   background-color: rgb(237, 236, 236);
 
 }
 img {
@@ -29,4 +38,95 @@ body {
 }
 html {
     height: 100%;
+}
+
+.logo-container {
+  background-color: rgb(230, 233, 233);
+  opacity: 0.3;
+  text-align: center;
+  font-size: 32px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 28%;
+    background-color:  rgb(240 240 240);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: flex-start;
+}
+
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    height: 36%;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"] ,
+input[type="password"],
+select {
+  font-size: 18px;
+  height: 24px;
+  width: 60%;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #666;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  background: white;
+  outline: none;
+  
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+    margin-left: 10px;
+}
+.input-group {
+    flex:1;  
+    display:flex;
+    flex-direction:column; 
+    margin: 10px 5px;
+}
+#btn-create-account {
+    background-color: rgb(87, 130, 87);
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+a{
+   color: rgb(87, 130, 87);
+   text-decoration: none;
+}
+
+.third-section {
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+#form-header {
+    margin-left: 10px;
+    font-size: 20pt;
+}
+.emphasized {
+    font-style: italic;
 }
